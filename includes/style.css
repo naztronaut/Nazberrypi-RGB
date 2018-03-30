@@ -1,0 +1,89 @@
+.lightName{
+    font-size: 3vw;
+    padding: 25px 5px;
+}
+
+.row{
+    border-bottom: 1px dotted #000;
+    padding: 15px 0;
+}
+
+.noline{
+    border-bottom: none;
+}
+
+button.light{
+    font-size: 4vw;
+}
+
+#cron{
+    font-size: 4vw;
+}
+
+
+@media screen and (max-width: 767px){
+    .lightName{
+        font-size: 3vw;
+        padding: 20px 5px;
+    }
+    button.light{
+    font-size: 4vw;
+    }
+    #cron{
+    font-size: 4vw;
+        }
+
+}
+
+#red, #green, #blue {
+/*
+    float: left;
+    clear: left;
+*/
+    width: 20px;
+    height: 250px;
+    margin: 15px 0 15px -35px;
+    padding: 3px;
+  }
+  #swatch {
+    width: 120px;
+    height: 100px;
+    margin-top: 18px;
+      margin-right: 10px;
+/*    margin-left: 350px;*/
+    background-image: none;
+  }
+  #red .ui-slider-range { background: #ef2929; }
+  #red .ui-slider-handle { border-color: #ef2929; width: 27px; text-align: center;}
+  #green .ui-slider-range { background: #8ae234; }
+  #green .ui-slider-handle { border-color: #8ae234; width: 27px; text-align: center; }
+  #blue .ui-slider-range { background: #729fcf; }
+  #blue .ui-slider-handle { border-color: #729fcf; width: 27px; text-align: center; }
+
+#redNum, #greenNum, #blueNum{
+    display: none;
+}
+
+#submitColor{
+    width: 120px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.defaultColors{
+    height: 20px;
+    width: 20px;
+}
+
+/*Preset colors*/
+#redDef { background: rgb(255, 0, 0); }
+#blueDef { background: rgb(0, 0, 255); }
+#greenDef { background: rgb(0, 255, 0); }
+#yellowDef { background: rgb(255, 255, 0); }
+#cyanDef { background: rgb(0,255,255); }
+#orangeDef { background: rgb(255, 165, 0); }
+#yellowgreenDef { background: rgb(154,205,50); }
+#magentaDef {background: rgb(255,0,255); }
+#whiteDef { background: rgb(255, 255, 255); }
+#blackDef { background: rgb(0, 0, 0); }

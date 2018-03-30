@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LIGHTS</title>
+    <!--jQuery and jQuery UI JS and CSS-->
+    <script src="https://code.jquery.com/jquery-2.2.3.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/black-tie/jquery-ui.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="includes/style.css" />
+    <link rel="stylesheet" href="includes/bootstrap.min.css" />
+    <!--Better touch screen functionality for p hone-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <!-- custom JS -->
+    <script src="includes/script.js"></script>
+</head>
+<body>
+    <div class="container" id="content">
+        <div class="row">
+            <div class="col-xs-4">
+                <div class="lightName text-info "> Living Room </div>
+            </div>
+            <div class="col-xs-8">
+                <div class="col-xs-12">
+                    <div class="col-xs-7">
+                        <div class="row noline">
+                            <div class="col-xs-4">
+                                <div id="red"></div><span id="redNum">255</span> </div>
+                            <div class="col-xs-4">
+                                <div id="green"></div><span id="greenNum">255</span> </div>
+                            <div class="col-xs-4">
+                                <div id="blue"></div><span id="blueNum">255</span> </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-5">
+                        <div id="swatch" class="ui-widget-content ui-corner-all"></div>
+                        <button class="btn btn-default" id="submitColor">Change Color</button>
+                        <br />
+                        <span id="presets">Presets:</span>
+                        <br />
+                        <button class="defaultColors" data-color="white" id="whiteDef"></button>
+                        <button class="defaultColors" data-color="black" id="blackDef"></button>
+                        <button class="defaultColors" data-color="red" id="redDef"></button>
+                        <button class="defaultColors" data-color="green" id="greenDef"></button>
+                        <button class="defaultColors" data-color="blue" id="blueDef"></button>
+                        <button class="defaultColors" data-color="yellow" id="yellowDef"></button>                        
+                        <br />
+                        <button class="defaultColors" data-color="cyan" id="cyanDef"></button>
+                        <button class="defaultColors" data-color="orange" id="orangeDef"></button>
+                        <button class="defaultColors" data-color="yellowgreen" id="yellowgreenDef"></button>
+                        <button class="defaultColors" data-color="magenta" id="magentaDef"></button>
+                        
+                    </div>
+                    
+                    <!--Code currently not working - enhancement for the future-->
+                    <div class="col-xs-12">
+                        <h3>Dimmer:</h3> <button class="btn btn-lg btn-primary" id="livingDimmer">-</button> <button class="btn btn-lg btn-primary" id="livingBrighter">+</button>
+                        <h3>Brightness:</h3> 
+                        <button class="btn btn-lg btn-primary brightness" data-bright='25'>25%</button> 
+                        <button class="btn btn-lg btn-primary brightness" data-bright='50'>50%</button> 
+                        <button class="btn btn-lg btn-primary brightness" data-bright='75'>75%</button> 
+                        <button class="btn btn-lg btn-primary brightness" data-bright='100'>100%</button> 
+                    </div>
+                    <!--Code currently not working - enhancement for the future-->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
