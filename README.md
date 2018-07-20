@@ -13,6 +13,9 @@ RGB LED Strip Light control using Raspberry Pi 3, Raspberry Pi Zero, and a basic
 3. RGB LED Strip
 4. Connectors/Wires and Power sources for Pi and Lights
 
+## Demo
+Check out the demo on YouTube at the following link: [https://www.youtube.com/watch?v=ddv5vsHgYhI](https://www.youtube.com/watch?v=ddv5vsHgYhI)
+
 ### Author
 Nazmus Nasir - [Easy Programming](https://www.easyprogramming.net)
 
@@ -21,3 +24,4 @@ Due to my beginner knowlege of Python, there's a layer of PHP between the JavaSc
 This has been tested on Raspbery Pi 3 and Raspberry Pi Zero.
 I'll keep updating this when I have time and eventually include a diagram of the connections. 
 More info on this can be found on [https://www.easyprogramming.net/playground/raspberry_pi_led_strip_control.php](EasyProgramming.net)
+Feel free to ask questions on Easy Programming.

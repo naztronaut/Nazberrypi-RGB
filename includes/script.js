@@ -1,3 +1,8 @@
+/*
+	Author: Nazmus Nasir
+	Website: https://www.EasyProgramming.net
+*/
+
 $(document).ready(function () {
     $(function() {
         function hexFromRGB(r, g, b) {

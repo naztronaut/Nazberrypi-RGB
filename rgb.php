@@ -1,4 +1,8 @@
 <?php
+/*
+	Author: Nazmus Nasir
+	Website: https://www.EasyProgramming.net
+*/
 
 if(isset($_GET['red'])){
     $red = $_GET['red'];

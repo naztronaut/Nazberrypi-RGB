@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+#Author: Nazmus Nasir
+#Website: https://www.EasyProgramming.net
 
 import pigpio
 import sys
