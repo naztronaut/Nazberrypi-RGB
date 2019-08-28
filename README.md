@@ -26,3 +26,11 @@ I'll keep updating this when I have time and eventually include a diagram of the
 
 More info on this can be found on [https://www.easyprogramming.net/playground/raspberry_pi_led_strip_control.php](EasyProgramming.net)
 Feel free to ask questions on Easy Programming.
+
+## Questions?
+If you have questions, there are many ways to get in touch with me! 
+
+1. Ask in the comments section of the YouTube video, I am generally very good at responding to questions. 
+2. Ask in the comments section of EasyProgramming.net. Every tutorial comes with a Disqus section to allow a meaninful discussion
+3. If a repository exists on Github, open an issue! 
+4. This should be used as a last resort because I check this email every once in a while and don't guarantee a response, but if you must, you can use the contact form found here: https://www.easyprogramming.net/contact.php
