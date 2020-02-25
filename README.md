@@ -1,6 +1,14 @@
 # Nazberrypi-RGB
 RGB LED Strip Light control using Raspberry Pi 3, Raspberry Pi Zero, and a basic HTML/JS Site
 
+# *NOTE* Updated Reponsitory: 
+This project has been recreated with RGBW Lights In the repo titled RaspberryPi-RGBW-Control. Find it here: https://github.com/naztronaut/RaspberryPi-RGBW-Control
+
+See the demo at 
+<a href="https://www.youtube.com/watch?v=NmyITFUi5cI"><img src="https://github.com/naztronaut/RaspberryPi-RGBW-Control/raw/master/img/RGBWDemo.gif" alt="RGBW LED Strip Control with Pi" /></a>
+
+And find more info at https://www.easyprogramming.net/raspberrypi/rgbw_led_strip.php
+
 ## Software Requirements
 1. PIGPIO library installed on your pi - [PIGPIO Library](http://abyz.me.uk/rpi/pigpio/pigpiod.html)
 2. PHP 5+
